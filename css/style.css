@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    font-size: 115px; 
+    font-family: 'Dancing Script', cursive;
+font-family: 'Yellowtail', cursive;
+    background-color: #9CADA4;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    
+
+  }
+
+  #firstw{
+
+      font-size: 35px;
+      text-align: center;
+      font-family: 'Otomanopee One', sans-serif;  
+      color: white;
+      padding-top: 70px;
+      height: 20%;
+   
+
+
+
+
+
+  } 
+
+
+  img {
+    display: block;
+    width: 150px;
+    float: left;
+    height: 150px;
+    border: 2px solid lightblue;
+  }
+  #image-container {
+    padding-left: 400px;
+    border: 2px solid black;
+    width: 800px;
+    margin: 0 auto;
+    height: 175px;
+  }
+
+  #leftImg,
+  #rightImg,
+  #midelImg {
+    width: 300px;
+    /* margin: 10px; */
+    position: relative;
+    left: 336px;
+    top: 94px;
+    border-radius: 30px;
+  }
+  span {
+    margin-left: 50px;
+  }
+  #attempts {
+    margin-left: 29px;
+    font-size: 40px;
+  }
+
+  #out{
+
+    position: absolute;
+    left: 1048px;     top: 690px;
+    word-spacing: 3px;
+    font-size: 30px;
+  }
+
+
+#result{
+position: relative;
+top: 258px;
+left: -309px;
+font-size: 40px;
+font-family: 'Otomanopee One', sans-serif;  
+
+}
+ 
+#myChart{
+
+    position: absolute;
+    top:690px;
+    left: 20px;
+  }
+
+  main{
+
+    background-color: gray;
+  }
+
+  body{
+
+    animation-name:changebackground ;
+    animation-duration:  5s ;
+    animation-iteration-count: infinite ;
+  }
+
+
+  @keyframes changebackground{
+    
+    25%{
+        background-color:#FFC107
+    }
+    50%{
+        background-color:#39A2DB
+    }
+    
+        
+    
+}
